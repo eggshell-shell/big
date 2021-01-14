@@ -12,7 +12,6 @@ $(() => {
         var hh = String(dt.getHours()).padStart(2, '0')
         var mm = String(dt.getMinutes()).padStart(2, '0')
         var ss = String(dt.getSeconds()).padStart(2, '0')
-
         return y + '-' + m + '-' + d + ' ' + hh + ':' + mm + ':' + ss
     }
 
